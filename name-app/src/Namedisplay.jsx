@@ -36,9 +36,11 @@ export default function Namedisplay(){
     <br />
     <button type='submit' >Submit</button>
     </form>
-    <div>
-       {fullName &&<p>Full Name: {fullName}</p>}
-    </div>
+    {fullName && (
+        <div>
+          <p>Full Name: {fullName}</p>
+        </div>
+      )}
         </div>
     )
 
